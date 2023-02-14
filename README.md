@@ -23,7 +23,7 @@ The distribution of these features alongside the export and import is skewed wit
 A look at the relationship between the features show less independence among themselves.
 Exports, health, income present positive linear relationships with domestic product per person (GDPP). It is also observed that child mortality is high for countries with low GDPP. This is seen in fig 2.1.
 
-<img src="https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png" width="300" height="100">
+<img src="https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png" width="600" height="100">
 
  ![image](https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png)
 
