@@ -14,7 +14,7 @@ The data was read into a Pandas dataframe. Quantitative analysis and visualizati
 Descriptive statistics of the features in the dataset present varying information of the data that requires more analysis. For example, with a standard deviation of 40.3 the child mortality presents values that are on average close to the mean child mortality rate of 38.27. This suggests that most of the countries in the dataset have a child mortality rate with a little over two points away from the mean. This was not commonplace among the other features.
 As can be seen in the fig 2.0, income and gross domestic product per person accounts for the largest values in the dataset. 
 
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/20461822/218774196-cce0596b-9b17-40a2-af9b-7a4388c2916f.png)" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/20461822/218774196-cce0596b-9b17-40a2-af9b-7a4388c2916f.png" width="600" height="600">
 
 	Fig 2.0: Socioeconomic and health features
 
