@@ -23,7 +23,6 @@ The distribution of these features alongside the export and import is skewed wit
 A look at the relationship between the features show less independence among themselves.
 Exports, health, income present positive linear relationships with domestic product per person (GDPP). It is also observed that child mortality is high for countries with low GDPP. This is seen in fig 2.1.
 
-<img src="https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png" width="600" height="100">
 
  ![image](https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png)
 
@@ -87,6 +86,7 @@ The following plots for the silhouette coefficient and elbow method were obtaine
  	Fig 2.3(a): Plot of showing elbow method
 	
 ![image](https://user-images.githubusercontent.com/20461822/218774668-f4c57630-2abd-4650-9ec9-d830bff0340f.png)
+
 	Fig 2.3(b): Plot of showing silhouette coefficient
 
 
@@ -123,7 +123,7 @@ Based on the properties of each identified clusters, they can be categorized int
 
 These select group of countries responsible are categorized as developed countries. Fig 2.7a shows the countries with highest income. 
 
- ![image](https://user-images.githubusercontent.com/20461822/218775494-498695da-23f8-4e30-b9ec-1684e80325ad.png) ![image](https://user-images.githubusercontent.com/20461822/218775516-3a086f44-053d-4743-9202-b23d0394e029.png)
+![image](https://user-images.githubusercontent.com/20461822/218779051-5cd5e6b8-a50a-4c1d-93a7-80d8cc874624.png) ![image](https://user-images.githubusercontent.com/20461822/218778939-5c950d85-e5bd-4c20-806a-52bcd33bd063.png)
 
 	 Fig 2.7a: High income countries	Fig 2.7b: Countries with lowest inflation
 
