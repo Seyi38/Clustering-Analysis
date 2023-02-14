@@ -22,8 +22,9 @@ The distribution of these features alongside the export and import is skewed wit
 A look at the relationship between the features show less independence among themselves.
 Exports, health, income present positive linear relationships with domestic product per person (GDPP). It is also observed that child mortality is high for countries with low GDPP. This is seen in fig 2.1.
 
- 
-Fig 2.1: relationship between features
+ ![image](https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png)
+
+	Fig 2.1: relationship between features
 
 In other to generate more insights and understand how these countries can be categorized based on their socio-economic and health indices, an unsupervised machine learning algorithm called clustering is used.
 
@@ -67,60 +68,57 @@ The following plots for the silhouette coefficient and elbow method were obtaine
 
 Model 1 with small number of features:
 
- 
-		Fig 2.2(a): Plot of showing elbow method
+ ![image](https://user-images.githubusercontent.com/20461822/218774436-55e50be9-240e-4830-94c4-dc6e26295148.png)
 
- 
-Fig 2.2(b): Plot of showing silhouette coefficient
+	Fig 2.2(a): Plot of showing elbow method
 
+ ![image](https://user-images.githubusercontent.com/20461822/218774479-4256f0fa-abf4-4450-92b8-26f4b19d73d6.png)
 
-
-
-
-
-
+	Fig 2.2(b): Plot of showing silhouette coefficient
 
 
 Model 2 with all features selected:
 
- 
-Fig 2.3(a): Plot of showing elbow method
-	
- 
-Fig 2.3(b): Plot of showing silhouette coefficient
+![image](https://user-images.githubusercontent.com/20461822/218774567-aa160b60-7186-4600-a280-236e20aabcb2.png)
+
+ 	Fig 2.3(a): Plot of showing elbow method
+![image](https://user-images.githubusercontent.com/20461822/218774668-f4c57630-2abd-4650-9ec9-d830bff0340f.png)
+	Fig 2.3(b): Plot of showing silhouette coefficient
 
 
 For both models, 3 clusters were selected.
 
 Increasing the number of features led to a slightly lower silhouette coefficient for the same K number of clusters (3). Increasing the clusters in model 2 to 4 does not offer any significant improvement in the model coefficient.
 From the experimentation a shift in the cluster centers between the two models are observed despite retaining the same number of clusters. This is seen the fig 2.4a and fig 2.4b. 
-
+  ![image](https://user-images.githubusercontent.com/20461822/218774744-744ceda7-6629-41b1-961d-af731ff9f1ba.png)
   
-Fig 2.4	: Cluster Centers for Model 1		Fig 2.4b: Cluster Centers for Model 2
+	Fig 2.4	: Cluster Centers for Model 1		Fig 2.4b: Cluster Centers for Model 2
 
 # ANALYSIS OF CLUSTERS
 
 The groupings by the model are seen by the average values for the socio-economic and health factors. As fig 2.5 shows, Income, GDPP, life expectancy is highest for cluster 0 while lowest for cluster 2 with cluster 1 in between. The reverse is the case for factors such as child mortality and inflation as seen in the charts below.
+![image](https://user-images.githubusercontent.com/20461822/218774820-2b4af530-6cc6-4eae-86b2-5c4571eb243e.png)
 
-     
-Fig 2.5a: Average socio-economic factors for clusters
+     Fig 2.5a: Average socio-economic factors for clusters
+
+![image](https://user-images.githubusercontent.com/20461822/218775146-4a81c1b3-5534-4c48-8555-5498640f96c7.png) ![image](https://user-images.githubusercontent.com/20461822/218775193-46019f7d-42d6-4b11-8857-784eba5846ea.png)
 
 
-  	 
-Fig 2.5a: Average socio-economic factors for clusters
+  	 Fig 2.5b: Average socio-economic factors for clusters
 
 Based on the properties of each identified clusters, they can be categorized into underdeveloped, developing and developed countries. The boxplot in fig 2.6a,b,c showing the distribution of figures for export, import and income confirms the earlier suspicion that a select group/cluster of countries are responsible for a larger share of the figures. 
+![image](https://user-images.githubusercontent.com/20461822/218775301-072c9497-c8fb-473f-ac14-c60a464f8d6b.png) ![image](https://user-images.githubusercontent.com/20461822/218775328-e128534f-12a1-47d0-bb4b-5e4cf1ea0303.png)
 
-  
-Fig 2.6a: Income per clusters 	Fig 2.6b: Imports per clusters
- 
-Fig 2.6c: Exports per clusters
+ 	Fig 2.6a: Income per clusters 	Fig 2.6b: Imports per clusters
+ ![image](https://user-images.githubusercontent.com/20461822/218775432-c9001344-d9ab-4b75-a93b-65ede632db45.png)
+	
+	Fig 2.6c: Exports per clusters
 
 These select group of countries responsible are categorized as developed countries. Fig 2.7a shows the countries with highest income. 
 
- 		 
+ 	![image](https://user-images.githubusercontent.com/20461822/218775494-498695da-23f8-4e30-b9ec-1684e80325ad.png) ![image](https://user-images.githubusercontent.com/20461822/218775516-3a086f44-053d-4743-9202-b23d0394e029.png)
 
-Fig 2.7a: High income countries	Fig 2.7b: Countries with lowest inflation
+	 Fig 2.7a: High income countries	Fig 2.7b: Countries with lowest inflation
 
 Countries with highest child mortality are all grouped in the same clusters. In fig 2.7b we observe that Seychelles, Slovenia, Latvia, Bahamas, and Lebanon despite belonging to a different cluster group (developing clusters) have very low inflation values. 
 
