@@ -22,7 +22,7 @@ As can be seen in the fig 2.0, income and gross domestic product per person acco
 The distribution of these features alongside the export and import is skewed with the median not centered. This skewness may suggest a few countries are responsible for large amounts of these features.
 A look at the relationship between the features show less independence among themselves.
 Exports, health, income present positive linear relationships with domestic product per person (GDPP). It is also observed that child mortality is high for countries with low GDPP. This is seen in fig 2.1.
-
+<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png)" width="300" height="100">
  ![image](https://user-images.githubusercontent.com/20461822/218774313-754fe1ac-22f5-43dd-a3aa-094674029d4f.png)
 
 	Fig 2.1: relationship between features
